@@ -1,0 +1,51 @@
+#odoo_pricelist_import_button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007b5e;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#odoo_pricelist_import_button:hover {
+    background-color: #005249;
+}
+
+#odoo_pricelist_import_button:active {
+    background-color: #002f20;
+}
+
+#odoo_pricelist_import_button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+#odoo_pricelist_import_file_input {
+    display: none;
+}
+
+#odoo_pricelist_import_file_label {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007b5e;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#odoo_pricelist_import_file_label:hover {
+    background-color: #005249;
+}
+
+#odoo_pricelist_import_file_label:active {
+    background-color: #002f20;
+}
+
+#odoo_pricelist_import_file_label:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}

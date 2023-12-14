@@ -1,0 +1,7 @@
+<t t-name="ImportButton">
+    <t t-call="web.controlPanel">
+        <div class="o_cp_buttons">
+            <button type="button" class="btn btn-primary o_import_button">Import Pricelist</button>
+        </div>
+    </t>
+</t>

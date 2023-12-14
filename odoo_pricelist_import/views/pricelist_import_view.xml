@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Pricelist Import Form View -->
+        <record id="view_pricelist_import_form" model="ir.ui.view">
+            <field name="name">pricelist.import.form</field>
+            <field name="model">pricelist.import</field>
+            <field name="arch" type="xml">
+                <form string="Import Pricelist">
+                    <sheet>
+                        <group>
+                            <field name="pricelist_file" widget="binary" filename="filename"/>
+                            <field name="filename" invisible="1"/>
+                        </group>
+                        <footer>
+                            <button name="import_pricelist" string="Import" type="object" class="oe_highlight"/>
+                            <button string="Cancel" class="oe_link" special="cancel"/>
+                        </footer>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Pricelist Import Action -->
+        <record id="action_pricelist_import" model="ir.actions.act_window">
+            <field name="name">Import Pricelist</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pricelist.import</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <!-- Pricelist Import Menu Item -->
+        <menuitem id="menu_pricelist_import" name="Import Pricelist" parent="product.menu_catalog" action="action_pricelist_import" sequence="20" groups="base.group_system"/>
+    </data>
+</odoo>
+```

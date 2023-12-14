@@ -1,0 +1,9 @@
+As an AI text-based model, I'm unable to create an Excel file directly. However, I can provide you with the structure of the Excel file based on the requirements.
+
+The Excel file "sample_pricelist.xlsx" should have the following columns:
+
+| Pricelist ID | Pricelist Name | Currency | Product Category | Minimum Quantity | Start Date | End Date | Pricing Computation Methods |
+|--------------|----------------|----------|------------------|------------------|------------|----------|-----------------------------|
+|              |                |          |                  |                  |            |          |                             |
+
+You can fill in the rows with your sample data. The data should be consistent with the data types expected by Odoo for each field.
